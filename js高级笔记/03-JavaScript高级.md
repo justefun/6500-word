@@ -4,12 +4,12 @@
   - 掌握 JavaScript 面向对象开发相关模式
   - 掌握在 JavaScript 中使用正则表达式
   
-typora-copy-images-to media
+typora-copy-images-to img
 ---
 
 # JavaScript 高级
 
-<img src="./media/Unofficial_JavaScript_logo_2.svg.png" width="400" alt="">
+<img src="./img/Unofficial_JavaScript_logo_2.svg.png" width="400" alt="">
 
 ### 目标
 
@@ -33,6 +33,7 @@ typora-copy-images-to media
 
 - 解析执行：轻量级解释型的 
 - 语言特点：动态，头等函数 (First-class Function)
+  
   + 又称函数是 JavaScript 中的一等公民
 - 执行环境：在宿主环境（host environment）下运行，浏览器是最常见的 JavaScript 宿主环境
   + 但是在很多非浏览器环境中也使用 JavaScript ，例如 node.js
@@ -74,7 +75,7 @@ typora-copy-images-to media
 
 ### 浏览器是如何工作的
 
-![img](media/jszxgc.png)
+![img](./img/jszxgc.png)
 
 [参考链接](http://www.2cto.com/kf/201202/118111.html)
 
@@ -109,7 +110,7 @@ JavaScript 运行分为两个阶段：
 
 ## JavaScript 面向对象编程
 
-<img src="./media/mxdxkf.png" width="400" alt="">
+<img src="./img/mxdxkf.png" width="400" alt="">
 
 ### 面向对象介绍
 
@@ -117,7 +118,7 @@ JavaScript 运行分为两个阶段：
 
 > Everything is object （万物皆对象）
 
-<img src="./media/20160823024542444.jpg" alt="">
+<img src="./img/20160823024542444.jpg" alt="">
 
 对象到底是什么，我们可以从两次层次来理解。
 
@@ -142,7 +143,7 @@ ECMAScript-262 把对象定义为：**无序属性的集合，其属性可以包
 
 > 面向对象不是新的东西，它只是过程式代码的一种高度封装，目的在于提高代码的开发效率和可维 护性。
 
-<img src="./media/664ba37eeee9f4623c06c066867f1d38_r.jpg" width="400" alt="">
+<img src="./img/664ba37eeee9f4623c06c066867f1d38_r.jpg" width="400" alt="">
 
 面向对象编程 —— Object Oriented Programming，简称 OOP ，是一种编程开发思想。
 它将真实世界各种复杂的关系，抽象为一个个对象，然后由对象之间的分工与合作，完成对真实世界的模拟。
@@ -547,7 +548,7 @@ console.log(p1.sayName === p2.sayName) // => true
 
 #### 构造函数、实例、原型三者之间的关系
 
-<img src="./media/构造函数-实例-原型之间的关系.png" alt="">
+<img src="./img/构造函数-实例-原型之间的关系.png" alt="">
 
 任何函数都具有一个 `prototype` 属性，该属性是一个对象。
 
